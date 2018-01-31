@@ -20,8 +20,9 @@ public class PlayerController : MonoBehaviour
         MoveSide(moveX);
 	}
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Touchy !");
         playerRigidbody.AddForce(Vector2.up * forceUp, ForceMode2D.Impulse);
     }
 
