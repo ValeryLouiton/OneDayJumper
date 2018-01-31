@@ -18,6 +18,10 @@ public class BottomKiller : MonoBehaviour
         Debug.Log("Game over !");
         player.SetActive(false);
         Instantiate(gameOver);
+        if (GetHigh.GetHighScore < ScoreManager.ScoreAccess)
+        {
+            PlayerPrefs.SetInt("Highscore", ScoreManager.ScoreAccess);
+        }
     }
 
     void Update ()

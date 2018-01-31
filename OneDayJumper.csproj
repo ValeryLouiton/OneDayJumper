@@ -303,6 +303,7 @@
     <Compile Include="Assets\2D Platformer Controller\Scripts\Player.cs" />
     <Compile Include="Assets\2D Platformer Controller\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\2D Platformer Controller\Scripts\RaycastController.cs" />
+    <Compile Include="Assets\GetHigh.cs" />
     <Compile Include="Assets\Scripts\BottomKiller.cs" />
     <Compile Include="Assets\Scripts\CameraFollower.cs" />
     <Compile Include="Assets\Scripts\MenuClicker.cs" />

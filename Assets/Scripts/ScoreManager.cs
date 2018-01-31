@@ -7,12 +7,19 @@ public class ScoreManager : MonoBehaviour
 {
     public GameObject player;
     public Text scoreText;
-    private int score;
+    private static int score;
 
-	void Start ()
+    public static int ScoreAccess
     {
-		
-	}
+        get { return score; }
+        set
+        {
+            if(value > 0)
+            {
+                score = value;
+            }
+        }
+    }
 	
 	void Update ()
     {
