@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Touchy !");
         playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, 0f);
         playerRigidbody.AddForce(Vector2.up * forceUp, ForceMode2D.Impulse);
     }

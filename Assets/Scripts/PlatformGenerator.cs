@@ -27,7 +27,7 @@ public class PlatformGenerator : MonoBehaviour
 		if (platformHeight - player.transform.position.y <= 15f)
         {
             RepositionPlatform();
-            if (distanceBetweenPlatforms < 12f)
+            if (distanceBetweenPlatforms < 10f)
             {
                 distanceBetweenPlatforms += increaseDistance;
             }

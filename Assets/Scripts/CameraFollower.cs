@@ -14,6 +14,9 @@ public class CameraFollower : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
+        if (transform.position.y < player.transform.position.y)
+        {
+            transform.position = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
+        }
     }
 }
