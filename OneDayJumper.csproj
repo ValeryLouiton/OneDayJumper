@@ -303,10 +303,13 @@
     <Compile Include="Assets\2D Platformer Controller\Scripts\Player.cs" />
     <Compile Include="Assets\2D Platformer Controller\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\2D Platformer Controller\Scripts\RaycastController.cs" />
-    <Compile Include="Assets\CameraFollower.cs" />
-    <Compile Include="Assets\PlatformGenerator.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\BottomKiller.cs" />
+    <Compile Include="Assets\Scripts\CameraFollower.cs" />
     <Compile Include="Assets\Scripts\MenuClicker.cs" />
+    <Compile Include="Assets\Scripts\PlatformGenerator.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RecyclePlatform.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ScrollingBackground.cs" />
   </ItemGroup>
   <ItemGroup>
